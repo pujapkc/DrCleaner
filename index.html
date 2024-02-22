@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dr. Cleaner</title>
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Style CSS -->
+
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <!-- Font Awesome CDN -->
+
+    <!-- Bootstrap Links -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap Links -->
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Google Font -->
+
+    <!-- Aos Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Aos Animation -->
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <div class="navbar">
+      <nav>
+        <input type="checkbox" id="show-search" />
+        <input type="checkbox" id="show-menu" />
+        <label for="show-menu" class="menu-icon"
+          ><i class="fa fa-bars"></i
+        ></label>
+
+        <div class="content">
+          <div class="logo"><img src="./images/cleaner.png" alt="" /></div>
+
+          <ul class="links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#order">Order</a></li>
+          </ul>
+        </div>
+
+        <label for="show-search" class="search-icon"
+          ><i class="fa fa-search"></i
+        ></label>
+
+        <form action="#" class="search-box">
+          <input type="text" placeholder="Search" required />
+          <button type="submit" class="go-icon">
+            <i class="fas fa-long-arrow-alt-right"></i>
+          </button>
+        </form>
+      </nav>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Home Section Start -->
+    <section class="home">
+      <div class="home-content" data-aos="zoom-in-down">
+        <h3>Experience the magic of <br /><span>DR. CLEANER</span></h3>
+        <p>Your trusted partner for a cleaner, shinier, and fresher home!</p>
+
+        <button id="btn">
+          <a href="#order">ORDER NOW</a><i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+
+      <div class="img" data-aos="zoom-in-left">
+        <img src="./images/toilet cleaner.png" alt="" />
+      </div>
+    </section>
+    <!-- Home Section End -->
+
+    <!-- Top Card Start -->
+    <section
+      class="top-card"
+      id="tp-card"
+      data-aos="fade-up"
+      data-aos-duration="1500"
+    >
+      <h3>Why We Are Different?</h3>
+      <p>
+        Your ultimate solution for a spotless, gleaming, and invigorating home!
+      </p>
+
+      <div class="row">
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/efficient cleaner.jpeg" alt="" />
+            <h2>Efficient Cleaning</h2>
+            <p>
+              Dr. Cleaner offers superior cleaning performance, ensuring every
+              corner of your home is spotless. Its advanced formula effectively
+              cuts through stubborn dirt and grime, leaving surfaces sparkling
+              clean.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/Long lasting cleaner.png" alt="" />
+            <h2>Long-lasting Freshness</h2>
+            <p>
+              With Dr. Cleaner, enjoy the long-lasting freshness that keeps your
+              home smelling great all day. Its unique fragrance technology
+              releases a pleasant scent that lingers, keeping your home fresh.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/gentle on surface.jpeg" alt="" />
+            <h2>Gentle on Surfaces</h2>
+            <p>
+              Dr. Cleaner is tough on dirt but gentle on surfaces, preserving
+              the life and look of your home furnishings. Its non-abrasive
+              formula ensures it cleans without scratching or damaging your
+              surfaces.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/eco-friendly cleaner.jpeg" alt="" />
+            <h2>Eco-friendly</h2>
+            <p>
+              Dr. Cleaner is committed to the environment, our products are
+              eco-friendly, causing minimal impact on the planet. Made with
+              biodegradable ingredients, it’s a choice you can feel good about.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Top Card End -->
+
+    <!-- Menu Section Start -->
+    <section class="menu" id="menu">
+      <h3>Our Menu</h3>
+      <div class="row" data-aos="fade-up" data-aos-duration="1500">
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/m1.jpg" alt="" />
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h3>Bathroom Cleaner<span>$20.5</span></h3>
+            <p>
+              Powerful cleaner that targets soap scum, limescale, and other
+              common bathroom stains.
+            </p>
+            <h6>
+              <button id="btn1">Shop Now</button>
+              <button id="btn2">Add Cart</button>
+            </h6>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/m2.jpg" alt="" />
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h3>Floor Cleaner<span>$20.5</span></h3>
+            <p>
+              Formulated to clean and shine hard floor surfaces such as tile,
+              hardwood, or laminate to make clear.
+            </p>
+            <h6>
+              <button id="btn1">Shop Now</button>
+              <button id="btn2">Add Cart</button>
+            </h6>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/m3.jpg" alt="" />
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h3>Glass Cleaner <span>$20.5</span></h3>
+            <p>
+              Specifically designed to remove smudges and streaks from glass
+              surfaces, leaving them clear.
+            </p>
+            <h6>
+              <button id="btn1">Shop Now</button>
+              <button id="btn2">Add Cart</button>
+            </h6>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/m4.jpg" alt="" />
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h3>Kitchen Cleaner <span>$20.5</span></h3>
+            <p>
+              Designed to cut through grease and grime found on stovetops,
+              ovens, and other kitchen appliances.
+            </p>
+            <h6>
+              <button id="btn1">Shop Now</button>
+              <button id="btn2">Add Cart</button>
+            </h6>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="row"
+        style="margin-top: 30px"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+      >
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/m5.jpg" alt="" />
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h3>Carpet Cleaner<span>$20.5</span></h3>
+            <p>
+              Used to remove stains and refresh the look and smell of carpets
+              and rugs.
+            </p>
+            <h6>
+              <button id="btn1">Shop Now</button>
+              <button id="btn2">Add Cart</button>
+            </h6>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/m6.jpg" alt="" />
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h3>Fabric Cleaner <span>$20.5</span></h3>
+            <p>
+              Ideal for upholstery, curtains, and other fabric surfaces, helping
+              to remove stains and odors.
+            </p>
+            <h6>
+              <button id="btn1">Shop Now</button>
+              <button id="btn2">Add Cart</button>
+            </h6>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/m7.jpg" alt="" />
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h3>Wood Polish <span>$20.5</span></h3>
+            <p>
+              Not only cleans wooden surfaces but also nourishes the wood and
+              leaves a protective shine.
+            </p>
+            <h6>
+              <button id="btn1">Shop Now</button>
+              <button id="btn2">Add Cart</button>
+            </h6>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/m5.jpg" alt="" />
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h3>All-Purpose Cleaner<span>$20.5</span></h3>
+            <p>
+              A versatile solution that can be used to clean a variety of
+              surfaces in your home.
+            </p>
+            <h6>
+              <button id="btn1">Shop Now</button>
+              <button id="btn2">Add Cart</button>
+            </h6>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Menu Section End -->
+
+    <!-- About Section Start -->
+    <section
+      class="about"
+      id="about"
+      data-aos="fade-up"
+      data-aos-duration="1500"
+    >
+      <div class="row">
+        <div class="col-md-5 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/toilet cleaner.png" alt="" />
+          </div>
+        </div>
+
+        <div class="col-md-7 py-3 py-md-0">
+          <h5>About us</h5>
+          <h3>Dr. Cleaner</h3>
+          <p>
+            "Dr. Cleaner is a leading brand in the home cleaning industry,
+            dedicated to providing efficient, eco-friendly, and high-quality
+            cleaning solutions. Our products are designed with the customer in
+            mind, offering superior cleaning performance and long-lasting
+            freshness. We believe in the power of cleanliness and its ability to
+            enhance the quality of life. Our commitment to the environment is
+            reflected in our eco-friendly products that are tough on dirt but
+            gentle on the planet. Experience the magic of cleanliness with Dr.
+            Cleaner - your trusted partner for a cleaner, shinier, and fresher
+            home."
+          </p>
+          <p>
+            "At Dr. Cleaner, we understand the importance of a clean and healthy
+            home. Our team of experts is constantly innovating to bring you
+            cleaning solutions that not only meet but exceed your expectations.
+            We take pride in our range of products that are not only effective
+            but also safe for you and your loved ones. Our commitment to quality
+            and customer satisfaction has made us a trusted choice for
+            households worldwide. With Dr. Cleaner, you can rest assured that
+            you're in good hands. Experience a cleaner, shinier, and fresher
+            home with us today!"
+          </p>
+          <button id="about-btn">Read More...</button>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Order Section Start -->
+    <section
+      class="order"
+      id="order"
+      data-aos="fade-up"
+      data-aos-duration="1500"
+    >
+      <div class="row">
+        <div class="col-md-6">
+          <input type="text" class="form-control" placeholder="Name" required />
+          <input
+            type="number"
+            class="form-control"
+            placeholder="Phone Number"
+            required
+          />
+          <input
+            type="text"
+            class="form-control"
+            placeholder="What You Want"
+            required
+          />
+          <input
+            type="number"
+            class="form-control"
+            placeholder="Quantity"
+            required
+          />
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="5"
+            class="form-control"
+          ></textarea>
+
+          <button>
+            <span>Order Now</span>
+          </button>
+        </div>
+
+        <div class="col-md-6 py-3 py-md-0">
+          <div class="order-info">
+            <h3>Order Now</h3>
+            <p>
+              Our commitment to quality and customer satisfaction has made us a
+              trusted choice for households worldwide.
+            </p>
+
+            <div class="list">
+              <li><a href="#">98744543323</a></li>
+              <li><a href="#">DrCleaner@gmail.com</a></li>
+              <li><a href="#">Delhi,India</a></li>
+            </div>
+            <div class="social">
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-linkedin"></i>
+              <i class="fa-brands fa-pinterest"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Order Section End -->
+
+    <section class="reviews" data-aos="fade-up" data-aos-duration="1500">
+      <h3>What's Our Customars Say</h3>
+      <div class="row">
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <p>
+              <img src="./images/Avatar Image.png" alt="" />
+
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </p>
+            <hr />
+            <h6>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil
+              dolorum iste cupiditate illo eveniet. Ex porro sint minus quae
+              molestias beatae, eaque amet quibusdam architecto animi sit quia
+              ad tenetur.
+            </h6>
+          </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <p>
+              <img src="./images/Avatar Image (1).png" alt="" />
+
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </p>
+            <hr />
+            <h6>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Quibusdam officiis impedit tempore doloribus magni quia, tempora
+              quam aut inventore cum nihil maiores obcaecati fugiat doloremque
+              laudantium, molestias labore quae illum!
+            </h6>
+          </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <p>
+              <img src="./images/Avatar Image (2).png" alt="" />
+
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </p>
+            <hr />
+            <h6>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+              voluptates fugit ea animi quod et itaque vel doloribus perferendis
+              molestiae officiis cumque praesentium, ex iusto dolore eum laborum
+              necessitatibus suscipit.
+            </h6>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Start -->
+    <footer id="footer">
+      <div class="footer-content">
+        <div class="logo"><img src="./images/cleaner.png" alt="" /></div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam,
+          reiciendis vitae est quibusdam voluptatem veritatis eaque quo pariatur
+          libero. Cum. <br />Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit. Dolorum, exercitationem!
+        </p>
+        <div class="social-links">
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-pinterest"></i>
+        </div>
+        <p class="text-center">With ❤️ From India</p>
+        <p class="text-center">Copyright Ayush Singh @ 2024</p>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- Animation -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
